@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
+<head>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- ============================================================
+       PRIMARY SEO
+  ============================================================ -->
+  <title>VigilAI — Free Deepfake & AI Voice Detector | Founded by Abhishek Kumar</title>
+  <meta name="description" content="VigilAI is a free real-time deepfake and AI voice detection tool founded by Abhishek Kumar. Detect fake video calls, cloned voices, and AI-generated audio instantly — no install needed. Try VigilAI at vigilai.online."/>
+  <meta name="keywords" content="VigilAI, vigil ai, deepfake detector, deepfake fraud, AI voice detector, fake video call detector, real-time deepfake detection, stop deepfake fraud, Abhishek Kumar, founder of VigilAI, who made vigil ai, vigil AI tool, deepfake checker, voice clone detector, AI fraud detection, free deepfake tool"/>
+  <meta name="author" content="Abhishek Kumar"/>
+  <meta name="creator" content="Abhishek Kumar"/>
+  <meta name="publisher" content="VigilAI"/>
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+  <meta name="googlebot" content="index, follow"/>
+  <meta name="rating" content="general"/>
+  <meta name="revisit-after" content="7 days"/>
+  <meta name="language" content="English"/>
+  <meta name="category" content="AI Security, Deepfake Detection, Fraud Prevention"/>
+  <link rel="canonical" href="https://vigilai.online/"/>
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:title" content="VigilAI — Free Deepfake & AI Voice Detector"/>
+  <meta property="og:description" content="Detect AI-generated voices and deepfake video calls in real-time. Founded by Abhishek Kumar. Free, private, no install needed."/>
+  <meta property="og:url" content="https://vigilai.online/"/>
+  <meta property="og:site_name" content="VigilAI"/>
+  <meta property="og:image" content="https://vigilai.online/logo.png"/>
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+  <meta property="og:image:alt" content="VigilAI — Deepfake Detection Tool by Abhishek Kumar"/>
+
+  <!-- Twitter / X Card -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@vigilai_x"/>
+  <meta name="twitter:creator" content="@vigilai_x"/>
+  <meta name="twitter:title" content="VigilAI — Free Deepfake & AI Voice Detector"/>
+  <meta name="twitter:description" content="Real-time deepfake and AI voice detection. Founded by Abhishek Kumar. Free, no install."/>
+  <meta name="twitter:image" content="https://vigilai.online/logo.png"/>
+
+  <!-- JSON-LD: WebSite -->
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebSite","@id":"https://vigilai.online/#website","name":"VigilAI","alternateName":["Vigil AI","VigilAI Deepfake Detector"],"url":"https://vigilai.online","description":"VigilAI is a free real-time deepfake and AI voice detection platform founded by Abhishek Kumar.","inLanguage":"en-US"}
+  </script>
+
+  <!-- JSON-LD: SoftwareApplication -->
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"SoftwareApplication","@id":"https://vigilai.online/#app","name":"VigilAI","alternateName":"Vigil AI","url":"https://vigilai.online","applicationUrl":"https://vigilaionline.streamlit.app","description":"VigilAI detects AI-generated voices and deepfake video calls in real-time using MFCC spectral analysis, MediaPipe facial landmark tracking, and Fourier pixel analysis. Built and founded by Abhishek Kumar.","applicationCategory":"SecurityApplication","applicationSubCategory":"Deepfake Detection","operatingSystem":"Web Browser","featureList":["Real-time AI voice detection","Deepfake video call detection","Webcam liveness check","MFCC spectral voice fingerprinting","MediaPipe 468-point facial landmark tracking","Fourier pixel analysis","Blink and jitter detection","File upload analysis (WAV, MP3, MP4)","Live microphone recording analysis"],"author":{"@type":"Person","@id":"https://vigilai.online/#founder","name":"Abhishek Kumar","sameAs":["https://www.instagram.com/cdrnine.png","https://x.com/vigilai_x"]},"publisher":{"@type":"Organization","@id":"https://vigilai.online/#org"},"offers":{"@type":"Offer","price":"0","priceCurrency":"USD","availability":"https://schema.org/InStock","description":"Free to use — no account or installation required"},"datePublished":"2024-01-01","dateModified":"2026-01-01","inLanguage":"en-US","isAccessibleForFree":true,"keywords":"deepfake detection, AI voice detector, fake video call, deepfake fraud, vigil ai"}
+  </script>
+
+  <!-- JSON-LD: Organization -->
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Organization","@id":"https://vigilai.online/#org","name":"VigilAI","alternateName":"Vigil AI","url":"https://vigilai.online","logo":{"@type":"ImageObject","url":"https://vigilai.online/logo.png","width":512,"height":512},"description":"VigilAI is a deepfake and AI voice fraud detection platform. Founded by Abhishek Kumar.","foundingDate":"2026","founder":{"@type":"Person","@id":"https://vigilai.online/#founder","name":"Abhishek Kumar"},"sameAs":["https://www.instagram.com/_vigil.ai","https://x.com/vigilai_x","https://vigilaionline.streamlit.app"],"contactPoint":{"@type":"ContactPoint","email":"vigilai.online@gmail.com","contactType":"customer support","availableLanguage":["English","Hindi"]}}
+  </script>
+
+  <!-- JSON-LD: Person — Abhishek Kumar (triggers founder Knowledge Panel) -->
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Person","@id":"https://vigilai.online/#founder","name":"Abhishek Kumar","givenName":"Abhishek","familyName":"Kumar","url":"https://vigilai.online","jobTitle":"Founder & Lead Developer","worksFor":{"@type":"Organization","@id":"https://vigilai.online/#org","name":"VigilAI"},"description":"Abhishek Kumar is the founder and lead developer of VigilAI, a free real-time deepfake and AI voice detection platform. He built VigilAI to protect ordinary people from AI-generated scam calls and deepfake video fraud.","knowsAbout":["Deepfake Detection","AI Voice Analysis","Python","Streamlit","MediaPipe","LibROSA","OpenCV","Machine Learning","Cybersecurity","Fraud Prevention"],"sameAs":["https://www.instagram.com/cdrnine.png","https://x.com/vigilai_x"],"email":"vigilai.online@gmail.com","nationality":{"@type":"Country","name":"India"}}
+  </script>
+
+  <!-- JSON-LD: FAQPage — shows expandable answers directly in Google results -->
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is VigilAI?","acceptedAnswer":{"@type":"Answer","text":"VigilAI is a free real-time deepfake and AI voice detection tool founded by Abhishek Kumar. It runs entirely in the browser — no installation required. It detects AI-generated voices and deepfake video calls using MFCC spectral analysis, MediaPipe facial tracking, and Fourier pixel analysis."}},{"@type":"Question","name":"Who is the founder of VigilAI?","acceptedAnswer":{"@type":"Answer","text":"VigilAI was founded by Abhishek Kumar, a developer from India. He built VigilAI to make deepfake detection accessible to everyone, free of charge. You can follow him on Instagram at @cdrnine.png or on X at @vigilai_x. Contact: vigilai.online@gmail.com"}},{"@type":"Question","name":"Who created VigilAI?","acceptedAnswer":{"@type":"Answer","text":"VigilAI was created and developed by Abhishek Kumar. He is the sole founder and lead developer, building it using Python, Streamlit, LibROSA, MediaPipe, and OpenCV."}},{"@type":"Question","name":"How does VigilAI detect deepfakes?","acceptedAnswer":{"@type":"Answer","text":"VigilAI uses three layers: (1) MFCC spectral voice fingerprinting to detect unnatural AI voice patterns; (2) Biological blink detection via MediaPipe 468-point facial landmarks; (3) Fourier pixel and jitter analysis to detect AI generation artifacts."}},{"@type":"Question","name":"Is VigilAI free to use?","acceptedAnswer":{"@type":"Answer","text":"Yes. VigilAI is completely free. No account, no subscription, no installation. Visit vigilai.online and launch the detection app."}},{"@type":"Question","name":"Can VigilAI detect AI-generated voices?","acceptedAnswer":{"@type":"Answer","text":"Yes. VigilAI's MFCC spectral analysis detects the acoustic signatures of AI voice synthesis and voice cloning. You can test live audio or upload WAV/MP3 files."}},{"@type":"Question","name":"What is deepfake fraud?","acceptedAnswer":{"@type":"Answer","text":"Deepfake fraud is when criminals use AI-generated video or cloned voices to impersonate real people in video calls or phone calls. VigilAI was built to detect and stop this type of fraud in real-time."}},{"@type":"Question","name":"How do I use VigilAI?","acceptedAnswer":{"@type":"Answer","text":"Visit vigilai.online and click Launch Detection App. Record live audio from your microphone, upload a WAV/MP3/MP4 file, or enable your webcam for a liveness check. Results in under 5 seconds."}}]}
+  </script>
+
+  <!-- JSON-LD: BreadcrumbList -->
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://vigilai.online/"},{"@type":"ListItem","position":2,"name":"Deepfake Detection","item":"https://vigilai.online/#features"},{"@type":"ListItem","position":3,"name":"About Abhishek Kumar","item":"https://vigilai.online/#about"},{"@type":"ListItem","position":4,"name":"FAQ","item":"https://vigilai.online/#faq"}]}
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #020b18; --surface: #071528; --surface2: #0c1f38;
+      --accent: #00d4ff; --accent2: #ff4060; --accent3: #00ff9d;
+      --text: #e8f4ff; --muted: #7a9bb8;
+      --border: rgba(0,212,255,0.15); --glow: 0 0 40px rgba(0,212,255,0.25);
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); overflow-x: hidden; }
+    body::before { content: ''; position: fixed; inset: 0; background-image: linear-gradient(rgba(0,212,255,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(0,212,255,0.03) 1px, transparent 1px); background-size: 48px 48px; pointer-events: none; z-index: 0; }
+    body::after { content: ''; position: fixed; inset: 0; background: repeating-linear-gradient(0deg, transparent, transparent 3px, rgba(0,0,0,0.04) 3px, rgba(0,0,0,0.04) 4px); pointer-events: none; z-index: 1; }
+
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; display: flex; align-items: center; justify-content: space-between; padding: 12px 60px; background: rgba(2,11,24,0.92); backdrop-filter: blur(20px); border-bottom: 1px solid var(--border); }
+    .nav-logo { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1.4rem; color: var(--accent); letter-spacing: -0.5px; display: flex; align-items: center; gap: 10px; text-decoration: none; }
+    .nav-logo img { width: 42px; height: 42px; object-fit: contain; filter: drop-shadow(0 0 8px rgba(0,212,255,0.5)); }
+    .nav-links { display: flex; gap: 32px; }
+    .nav-links a { font-family: 'DM Mono', monospace; font-size: 0.75rem; color: var(--muted); text-decoration: none; letter-spacing: 0.08em; text-transform: uppercase; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--accent); }
+    .nav-cta { font-family: 'DM Mono', monospace; font-size: 0.78rem; background: transparent; border: 1px solid var(--accent); color: var(--accent); padding: 9px 22px; border-radius: 4px; text-decoration: none; letter-spacing: 0.08em; text-transform: uppercase; transition: background 0.2s, color 0.2s, box-shadow 0.2s; }
+    .nav-cta:hover { background: var(--accent); color: var(--bg); box-shadow: var(--glow); }
+
+    .hero { position: relative; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 140px 40px 100px; z-index: 2; }
+    .hero-logo { width: 140px; height: 140px; object-fit: contain; margin-bottom: 32px; filter: drop-shadow(0 0 32px rgba(0,212,255,0.5)); animation: logoPulse 3s ease-in-out infinite; }
+    @keyframes logoPulse { 0%,100%{filter:drop-shadow(0 0 24px rgba(0,212,255,0.4));transform:scale(1)}50%{filter:drop-shadow(0 0 52px rgba(0,212,255,0.75));transform:scale(1.04)} }
+    .hero-badge { font-family: 'DM Mono', monospace; font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent3); border: 1px solid rgba(0,255,157,0.3); padding: 6px 16px; border-radius: 2px; margin-bottom: 36px; display: inline-flex; align-items: center; gap: 8px; }
+    .hero-badge .dot { width: 6px; height: 6px; background: var(--accent3); border-radius: 50%; animation: blink 1.2s ease-in-out infinite; }
+    @keyframes blink { 0%,100%{opacity:1}50%{opacity:0.2} }
+    .hero h1 { font-family: 'Syne', sans-serif; font-weight: 800; font-size: clamp(3rem, 8vw, 7rem); line-height: 0.95; letter-spacing: -3px; margin-bottom: 12px; background: linear-gradient(135deg, #ffffff 30%, var(--accent) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .hero h1 .danger { background: linear-gradient(135deg, var(--accent2) 0%, #ff8c00 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .hero-sub { font-size: 1.15rem; color: var(--muted); max-width: 580px; line-height: 1.7; margin: 28px auto 50px; font-weight: 300; }
+    .hero-sub strong { color: var(--text); font-weight: 500; }
+    .hero-actions { display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; }
+    .btn-primary { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.95rem; background: var(--accent); color: var(--bg); padding: 16px 36px; border-radius: 4px; text-decoration: none; transition: box-shadow 0.2s, transform 0.15s; letter-spacing: 0.02em; }
+    .btn-primary:hover { box-shadow: 0 0 50px rgba(0,212,255,0.5); transform: translateY(-2px); }
+    .btn-ghost { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.95rem; background: transparent; border: 1px solid var(--accent); color: var(--accent); padding: 16px 36px; border-radius: 4px; text-decoration: none; transition: background 0.2s, color 0.2s; }
+    .btn-ghost:hover { background: var(--accent); color: var(--bg); }
+    .hero-byline { margin-top: 40px; font-family: 'DM Mono', monospace; font-size: 0.72rem; color: var(--muted); letter-spacing: 0.1em; }
+    .hero-byline a { color: var(--accent); text-decoration: none; }
+    .hero-byline a:hover { text-decoration: underline; }
+
+    .stat-strip { position: relative; z-index: 2; display: flex; justify-content: center; flex-wrap: wrap; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: rgba(7,21,40,0.6); backdrop-filter: blur(10px); margin-bottom: 100px; }
+    .stat-item { flex: 1; min-width: 200px; padding: 40px 48px; border-right: 1px solid var(--border); text-align: center; }
+    .stat-item:last-child { border-right: none; }
+    .stat-num { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 2.8rem; color: var(--accent); display: block; letter-spacing: -2px; }
+    .stat-label { font-family: 'DM Mono', monospace; font-size: 0.72rem; color: var(--muted); letter-spacing: 0.12em; text-transform: uppercase; margin-top: 6px; display: block; }
+
+    section { position: relative; z-index: 2; padding: 100px 60px; }
+    .section-tag { font-family: 'DM Mono', monospace; font-size: 0.72rem; color: var(--accent); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 16px; }
+    .section-title { font-family: 'Syne', sans-serif; font-weight: 800; font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.05; letter-spacing: -1.5px; margin-bottom: 20px; }
+    .section-desc { font-size: 1rem; color: var(--muted); max-width: 560px; line-height: 1.75; font-weight: 300; }
+
+    .how-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: start; max-width: 1100px; margin: 0 auto; }
+    .steps { display: flex; flex-direction: column; margin-top: 48px; }
+    .step { display: flex; gap: 24px; padding: 28px 0; border-bottom: 1px solid var(--border); }
+    .step:last-child { border-bottom: none; }
+    .step-num { font-family: 'DM Mono', monospace; font-size: 0.68rem; color: var(--accent); border: 1px solid var(--border); width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .step-content h4 { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 1rem; margin-bottom: 6px; }
+    .step-content p { font-size: 0.88rem; color: var(--muted); line-height: 1.65; }
+    .analysis-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 32px; font-family: 'DM Mono', monospace; font-size: 0.8rem; position: sticky; top: 100px; box-shadow: var(--glow); }
+    .card-header { display: flex; align-items: center; gap: 10px; margin-bottom: 28px; padding-bottom: 20px; border-bottom: 1px solid var(--border); }
+    .card-dot { width: 10px; height: 10px; border-radius: 50%; }
+    .card-header span { color: var(--muted); font-size: 0.72rem; margin-left: auto; }
+    .analysis-row { display: flex; justify-content: space-between; align-items: center; padding: 12px 0; border-bottom: 1px solid rgba(0,212,255,0.06); }
+    .analysis-label { color: var(--muted); }
+    .analysis-bar-wrap { flex: 1; margin: 0 18px; height: 3px; background: rgba(255,255,255,0.06); border-radius: 2px; overflow: hidden; }
+    .analysis-bar { height: 100%; border-radius: 2px; animation: barLoad 1.5s ease forwards; }
+    @keyframes barLoad { from { width: 0; } }
+    .verdict { margin-top: 24px; padding: 16px; background: rgba(255,64,96,0.08); border: 1px solid rgba(255,64,96,0.25); border-radius: 6px; text-align: center; color: var(--accent2); letter-spacing: 0.15em; font-size: 0.72rem; animation: verdictPulse 2s ease infinite; }
+    @keyframes verdictPulse { 0%,100%{box-shadow:0 0 0 rgba(255,64,96,0)}50%{box-shadow:0 0 20px rgba(255,64,96,0.2)} }
+
+    #features { background: var(--surface); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+    .features-header { text-align: center; margin-bottom: 72px; }
+    .features-header .section-desc { margin: 0 auto; }
+    .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2px; max-width: 1100px; margin: 0 auto; border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
+    .feature-card { padding: 40px 36px; background: var(--surface); border-right: 1px solid var(--border); border-bottom: 1px solid var(--border); transition: background 0.25s; position: relative; overflow: hidden; }
+    .feature-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, transparent, var(--accent), transparent); transform: translateX(-100%); transition: transform 0.5s ease; }
+    .feature-card:hover::before { transform: translateX(0); }
+    .feature-card:hover { background: var(--surface2); }
+    .feature-icon { font-size: 1.8rem; margin-bottom: 24px; }
+    .feature-card h3 { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 1.05rem; margin-bottom: 12px; }
+    .feature-card p { font-size: 0.88rem; color: var(--muted); line-height: 1.7; }
+    .feature-tag { display: inline-block; margin-top: 16px; font-family: 'DM Mono', monospace; font-size: 0.65rem; color: var(--accent); background: rgba(0,212,255,0.08); border: 1px solid rgba(0,212,255,0.2); padding: 3px 10px; border-radius: 2px; letter-spacing: 0.1em; text-transform: uppercase; }
+
+    #demo { text-align: center; max-width: 800px; margin: 0 auto; padding: 120px 40px; }
+    .demo-frame { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 64px 48px; margin-top: 60px; position: relative; overflow: hidden; }
+    .demo-frame::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 0%, rgba(0,212,255,0.08) 0%, transparent 60%); pointer-events: none; }
+    .demo-frame h2 { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 2rem; letter-spacing: -1px; margin-bottom: 16px; }
+    .demo-frame p { color: var(--muted); font-size: 0.95rem; line-height: 1.7; margin-bottom: 40px; }
+    .streamlit-btn { display: inline-flex; align-items: center; gap: 12px; font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.95rem; background: #FF4B4B; color: white; padding: 16px 36px; border-radius: 6px; text-decoration: none; transition: box-shadow 0.2s, transform 0.15s; }
+    .streamlit-btn:hover { box-shadow: 0 0 30px rgba(255,75,75,0.4); transform: translateY(-2px); }
+
+    /* ABOUT */
+    #about { background: var(--surface); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 100px 60px; }
+    .about-inner { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; }
+    .about-text .section-desc { margin-bottom: 16px; }
+    .about-mission { margin-top: 28px; padding: 20px 24px; border-left: 2px solid var(--accent); background: rgba(0,212,255,0.04); border-radius: 0 8px 8px 0; }
+    .about-mission p { font-size: 0.9rem; color: var(--muted); line-height: 1.75; font-style: italic; }
+    .about-mission p strong { color: var(--text); font-style: normal; }
+
+    .founder-card { background: var(--bg); border: 1px solid var(--border); border-radius: 16px; padding: 44px; position: relative; overflow: hidden; }
+    .founder-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, var(--accent), var(--accent3), var(--accent)); }
+    .founder-chip { display: inline-flex; align-items: center; gap: 8px; font-family: 'DM Mono', monospace; font-size: 0.65rem; color: var(--accent3); border: 1px solid rgba(0,255,157,0.3); padding: 5px 14px; border-radius: 20px; margin-bottom: 20px; letter-spacing: 0.12em; text-transform: uppercase; }
+    .founder-chip::before { content: ''; width: 6px; height: 6px; background: var(--accent3); border-radius: 50%; animation: blink 1.4s ease infinite; }
+    .founder-name { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 2.2rem; letter-spacing: -1px; margin-bottom: 4px; }
+    .founder-title { font-family: 'DM Mono', monospace; font-size: 0.72rem; color: var(--accent); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 24px; }
+    .founder-bio { font-size: 0.9rem; color: var(--muted); line-height: 1.8; margin-bottom: 28px; border-bottom: 1px solid var(--border); padding-bottom: 28px; }
+    .founder-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 28px; }
+    .founder-stat { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 14px 18px; }
+    .founder-stat-num { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1.4rem; color: var(--accent); letter-spacing: -1px; display: block; }
+    .founder-stat-label { font-family: 'DM Mono', monospace; font-size: 0.6rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; }
+    .founder-links { display: flex; gap: 10px; flex-wrap: wrap; }
+    .founder-link { display: inline-flex; align-items: center; gap: 8px; font-family: 'DM Mono', monospace; font-size: 0.73rem; color: var(--muted); text-decoration: none; border: 1px solid var(--border); padding: 9px 18px; border-radius: 20px; transition: color 0.2s, border-color 0.2s; }
+    .founder-link:hover { color: var(--accent); border-color: var(--accent); }
+    .founder-link.ig:hover { color: #e1306c; border-color: #e1306c; }
+    .founder-link.x:hover { color: #fff; border-color: #fff; }
+
+    /* TEAM */
+    #team { border-top: 1px solid var(--border); padding: 100px 60px; text-align: center; }
+    .team-card { display: inline-flex; flex-direction: column; align-items: center; margin-top: 40px; padding: 40px 64px; border: 1px solid var(--border); border-radius: 14px; background: var(--surface); gap: 6px; }
+    .team-card .name { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1.6rem; letter-spacing: -0.5px; }
+    .team-card .role { font-family: 'DM Mono', monospace; font-size: 0.72rem; color: var(--accent); letter-spacing: 0.15em; text-transform: uppercase; margin-top: 4px; }
+    .team-social-links { display: flex; gap: 10px; margin-top: 16px; }
+    .team-link { display: inline-flex; align-items: center; gap: 8px; font-family: 'DM Mono', monospace; font-size: 0.78rem; color: var(--muted); text-decoration: none; border: 1px solid var(--border); padding: 8px 18px; border-radius: 20px; transition: color 0.2s, border-color 0.2s; }
+    .team-link:hover { color: var(--accent); border-color: var(--accent); }
+    .team-link.ig:hover { color: #e1306c; border-color: #e1306c; }
+    .team-link.x:hover { color: #fff; border-color: #fff; }
+    .team-meta { font-family: 'DM Mono', monospace; font-size: 0.82rem; color: var(--muted); margin-top: 36px; line-height: 2; }
+    .team-meta strong { color: var(--accent); }
+
+    /* FAQ */
+    #faq { background: var(--surface); border-top: 1px solid var(--border); padding: 100px 60px; }
+    .faq-inner { max-width: 800px; margin: 0 auto; }
+    .faq-list { margin-top: 52px; border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
+    .faq-item { border-bottom: 1px solid var(--border); }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-q { width: 100%; background: none; border: none; padding: 24px 28px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; text-align: left; gap: 16px; transition: background 0.2s; }
+    .faq-q:hover { background: var(--surface2); }
+    .faq-q h3 { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.98rem; color: var(--text); line-height: 1.4; }
+    .faq-icon { font-family: 'DM Mono', monospace; font-size: 1.2rem; color: var(--accent); flex-shrink: 0; transition: transform 0.3s; }
+    .faq-item.open .faq-icon { transform: rotate(45deg); }
+    .faq-a { max-height: 0; overflow: hidden; transition: max-height 0.4s ease; }
+    .faq-item.open .faq-a { max-height: 300px; }
+    .faq-a p { padding: 0 28px 24px; font-size: 0.9rem; color: var(--muted); line-height: 1.8; }
+    .faq-a a { color: var(--accent); text-decoration: none; }
+
+    /* CONTACT */
+    #contact { border-top: 1px solid var(--border); padding: 100px 60px; text-align: center; }
+    .contact-grid { display: flex; justify-content: center; gap: 24px; margin-top: 52px; flex-wrap: wrap; }
+    .contact-card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 36px 44px; min-width: 240px; text-decoration: none; display: flex; flex-direction: column; align-items: center; gap: 12px; transition: border-color 0.25s, box-shadow 0.25s, transform 0.2s; position: relative; overflow: hidden; }
+    .contact-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, transparent, var(--accent), transparent); transform: translateX(-100%); transition: transform 0.5s; }
+    .contact-card:hover::before { transform: translateX(0); }
+    .contact-card:hover { border-color: rgba(0,212,255,0.35); box-shadow: 0 0 30px rgba(0,212,255,0.1); transform: translateY(-4px); }
+    .contact-icon { width: 54px; height: 54px; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+    .contact-label { font-family: 'DM Mono', monospace; font-size: 0.68rem; color: var(--accent); letter-spacing: 0.15em; text-transform: uppercase; }
+    .contact-value { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 1rem; color: var(--text); }
+    .contact-sub { font-size: 0.78rem; color: var(--muted); }
+
+    footer { position: relative; z-index: 2; border-top: 1px solid var(--border); padding: 40px 60px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px; }
+    .footer-logo { display: flex; align-items: center; gap: 10px; font-family: 'Syne', sans-serif; font-weight: 800; color: var(--accent); font-size: 1.1rem; text-decoration: none; }
+    .footer-logo img { width: 30px; height: 30px; object-fit: contain; filter: drop-shadow(0 0 6px rgba(0,212,255,0.4)); }
+    .footer-links { display: flex; gap: 22px; flex-wrap: wrap; }
+    .footer-links a { font-family: 'DM Mono', monospace; font-size: 0.7rem; color: var(--muted); text-decoration: none; transition: color 0.2s; }
+    .footer-links a:hover { color: var(--accent); }
+    .footer-copy { font-family: 'DM Mono', monospace; font-size: 0.68rem; color: var(--muted); letter-spacing: 0.06em; line-height: 1.8; text-align: right; }
+
+    .fade-up { opacity: 0; transform: translateY(30px); transition: opacity 0.7s ease, transform 0.7s ease; }
+    .fade-up.visible { opacity: 1; transform: translateY(0); }
+
+    @media (max-width: 768px) {
+      nav { padding: 12px 20px; } .nav-links { display: none; }
+      section, #contact, #team, #about, #faq { padding: 70px 24px; }
+      .how-grid, .about-inner { grid-template-columns: 1fr; gap: 40px; }
+      .stat-strip { flex-direction: column; }
+      .stat-item { border-right: none; border-bottom: 1px solid var(--border); }
+      footer { flex-direction: column; text-align: center; padding: 28px 24px; }
+      .footer-copy { text-align: center; }
+      .hero { padding: 120px 24px 80px; }
+      .contact-grid { flex-direction: column; align-items: center; }
+      #demo { padding: 80px 24px; } .demo-frame { padding: 40px 24px; }
+      .team-card { padding: 32px 24px; width: 100%; }
+      .founder-stats { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="https://vigilai.online" class="nav-logo" title="VigilAI — Deepfake Detection by Abhishek Kumar">
+    <img src="logo.png" alt="VigilAI Logo" width="42" height="42">
+    VigilAI
+  </a>
+  <div class="nav-links">
+    <a href="#how">How It Works</a>
+    <a href="#features">Features</a>
+    <a href="#about">About</a>
+    <a href="#faq">FAQ</a>
+    <a href="#team">Team</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <a href="#demo" class="nav-cta">Try Now →</a>
+</nav>
+
+<section class="hero">
+  <a href="https://vigilai.online" title="VigilAI Homepage — Deepfake Detection by Abhishek Kumar">
+    <img src="logo.png" alt="VigilAI — Free Deepfake Detector founded by Abhishek Kumar" class="hero-logo" width="140" height="140">
+  </a>
+  <div class="hero-badge"><span class="dot"></span>Real-Time Detection System — Active</div>
+  <h1>Stop<br><span class="danger">Deepfake</span><br>Fraud.</h1>
+  <p class="hero-sub">
+    <strong>VigilAI</strong> detects <strong>AI-generated voices</strong> and <strong>deepfake video calls</strong> in real-time — before scammers can trick you. Free, private, no install needed.
+  </p>
+  <div class="hero-actions">
+    <a href="#demo" class="btn-primary">▶ Run Detection</a>
+    <a href="#about" class="btn-ghost">Meet the Founder</a>
+  </div>
+  <p class="hero-byline">Founded &amp; built by <a href="#about">Abhishek Kumar</a> · vigilai.online</p>
+</section>
+
+<div class="stat-strip fade-up">
+  <div class="stat-item"><span class="stat-num">3.4B+</span><span class="stat-label">Deepfake attempts in 2024</span></div>
+  <div class="stat-item"><span class="stat-num">40</span><span class="stat-label">MFCC Coefficients Analyzed</span></div>
+  <div class="stat-item"><span class="stat-num">Real-Time</span><span class="stat-label">Live Camera Detection</span></div>
+  <div class="stat-item"><span class="stat-num">3-in-1</span><span class="stat-label">Voice · Face · Pixel Analysis</span></div>
+</div>
+
+<section id="how" aria-label="How VigilAI Detects Deepfakes">
+  <div class="how-grid">
+    <div class="fade-up">
+      <p class="section-tag">// detection engine</p>
+      <h2 class="section-title">How VigilAI<br>Catches Fakes</h2>
+      <p class="section-desc">Three independent signal layers cross-verify each other — a single suspicious result triggers the alert.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">01</div>
+          <div class="step-content"><h4>Spectral Voice Fingerprinting</h4><p>Extracts 40 MFCC coefficients from audio. AI voices have unnaturally low spectral variance — we catch that instantly.</p></div>
+        </div>
+        <div class="step">
+          <div class="step-num">02</div>
+          <div class="step-content"><h4>Biological Blink Detection</h4><p>Tracks 468 facial landmarks via MediaPipe. Deepfakes rarely blink naturally — our model checks eye aspect ratio across every frame.</p></div>
+        </div>
+        <div class="step">
+          <div class="step-num">03</div>
+          <div class="step-content"><h4>AI Jitter & Pixel Analysis</h4><p>Deepfake masks "shimmy" slightly. We track nose bridge movement variance and Fourier spectral energy — both giveaways of generation artifacts.</p></div>
+        </div>
+      </div>
+    </div>
+    <div class="fade-up">
+      <div class="analysis-card">
+        <div class="card-header">
+          <div class="card-dot" style="background:#ff4060"></div>
+          <div class="card-dot" style="background:#ffbe00;margin-left:6px;"></div>
+          <div class="card-dot" style="background:#00ff9d;margin-left:6px;"></div>
+          <span>LIVE ANALYSIS · 00:04.2</span>
+        </div>
+        <div class="analysis-row"><span class="analysis-label">MFCC Variance</span><div class="analysis-bar-wrap"><div class="analysis-bar" style="width:24%;background:#ff4060;"></div></div><span style="color:#ff4060;font-size:0.72rem;">1842</span></div>
+        <div class="analysis-row"><span class="analysis-label">Blink Index</span><div class="analysis-bar-wrap"><div class="analysis-bar" style="width:12%;background:#ff4060;"></div></div><span style="color:#ff4060;font-size:0.72rem;">0.04</span></div>
+        <div class="analysis-row"><span class="analysis-label">Face Jitter Σ</span><div class="analysis-bar-wrap"><div class="analysis-bar" style="width:72%;background:#ffbe00;"></div></div><span style="color:#ffbe00;font-size:0.72rem;">0.0009</span></div>
+        <div class="analysis-row"><span class="analysis-label">Spectral Energy</span><div class="analysis-bar-wrap"><div class="analysis-bar" style="width:55%;background:#ffbe00;"></div></div><span style="color:#ffbe00;font-size:0.72rem;">132.6</span></div>
+        <div class="analysis-row"><span class="analysis-label">Lip Sync Score</span><div class="analysis-bar-wrap"><div class="analysis-bar" style="width:30%;background:#ff4060;"></div></div><span style="color:#ff4060;font-size:0.72rem;">LOW</span></div>
+        <div class="verdict">🚨 SYNTHETIC SIGNAL DETECTED — AI VOICE + VIDEO</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="features" aria-label="VigilAI Detection Features">
+  <div class="features-header fade-up">
+    <p class="section-tag">// capabilities</p>
+    <h2 class="section-title">Built to Outsmart Scammers</h2>
+    <p class="section-desc">Every detection module targets the specific artifacts that AI generation leaves behind — making VigilAI the most thorough free deepfake checker available.</p>
+  </div>
+  <div class="features-grid fade-up">
+    <div class="feature-card"><div class="feature-icon">🎙️</div><h3>Live Voice Recording</h3><p>Record directly from your microphone during a suspicious call. Analyze in real-time as it happens.</p><span class="feature-tag">Audio · MFCC</span></div>
+    <div class="feature-card"><div class="feature-icon">📁</div><h3>File Upload Analysis</h3><p>Upload any .wav or .mp3 audio — or .mp4 / .mov video — for a deep-scan verdict with confidence score.</p><span class="feature-tag">WAV · MP3 · MP4</span></div>
+    <div class="feature-card"><div class="feature-icon">📹</div><h3>Webcam Liveness Check</h3><p>One-click live webcam scan. The AI monitors 468 facial landmarks across every frame.</p><span class="feature-tag">MediaPipe · 468 pts</span></div>
+    <div class="feature-card"><div class="feature-icon">👁️</div><h3>Blink & Jitter Detection</h3><p>Real humans blink. Deepfakes don't — at least not naturally. We check eye aspect ratio frame by frame.</p><span class="feature-tag">Biological Signal</span></div>
+    <div class="feature-card"><div class="feature-icon">🔬</div><h3>Fourier Pixel Analysis</h3><p>AI-generated faces are too smooth. We use 2D FFT to detect missing high-frequency pixel data.</p><span class="feature-tag">Spectral · DFT</span></div>
+    <div class="feature-card"><div class="feature-icon">⚡</div><h3>Instant Verdict</h3><p>Three detection layers cross-verify every signal. One red flag is enough. Results in under 5 seconds.</p><span class="feature-tag">Local · Private</span></div>
+  </div>
+</section>
+
+<section id="demo" aria-label="Try VigilAI Deepfake Detector">
+  <div class="demo-frame fade-up">
+    <p class="section-tag" style="text-align:center;">// try it yourself</p>
+    <h2>Run VigilAI Now</h2>
+    <a href="https://vigilaionline.streamlit.app" class="streamlit-btn">> Launch Detection App</a>
+</section>
+
+<!-- ABOUT + FOUNDER — rich content for "who is founder of VigilAI" & "Abhishek Kumar VigilAI" -->
+<section id="about" aria-label="About VigilAI and Founder Abhishek Kumar">
+  <div class="about-inner">
+    <div class="about-text fade-up">
+      <p class="section-tag">// the story</p>
+      <h2 class="section-title">About<br>VigilAI</h2>
+      <p class="section-desc">VigilAI is a free, browser-based deepfake and AI voice fraud detection platform. It was created to give ordinary people the same fraud-detection capabilities that large organisations have — at zero cost.</p>
+      <p class="section-desc" style="margin-top:16px;">As deepfake technology becomes cheaper and accessible to bad actors, so must the defences. VigilAI runs three independent detection layers simultaneously and delivers a verdict in under 5 seconds with no data ever leaving the user's device.</p>
+      <div class="about-mission">
+        <p><strong>Mission:</strong> Make AI-powered voice and face verification instantly accessible to anyone on earth — free, private, and requiring zero technical knowledge to use.</p>
+      </div>
+    </div>
+
+    <!-- Microdata + rich founder card -->
+    <div class="founder-card fade-up" itemscope itemtype="https://schema.org/Person">
+      <div class="founder-chip">Founder &amp; Creator</div>
+      <h2 class="founder-name" itemprop="name">Abhishek Kumar</h2>
+      <p class="founder-title" itemprop="jobTitle">Founder · Lead Developer · VigilAI</p>
+      <p class="founder-bio" itemprop="description">
+        Abhishek Kumar is an Indian developer and the sole founder and creator of VigilAI. Driven by the rapid rise of AI-generated scam calls and deepfake video fraud targeting everyday people, he built VigilAI from scratch — combining Python, LibROSA, MediaPipe, and OpenCV into a single accessible, free tool. His goal: put real, enterprise-grade deepfake detection in the hands of anyone with a web browser, anywhere in the world.
+      </p>
+      <div class="founder-stats">
+        <div class="founder-stat">
+          <span class="founder-stat-num">3</span>
+          <span class="founder-stat-label">Detection Layers</span>
+        </div>
+        <div class="founder-stat">
+          <span class="founder-stat-num">5+</span>
+          <span class="founder-stat-label">Technologies Used</span>
+        </div>
+        <div class="founder-stat">
+          <span class="founder-stat-num">Free</span>
+          <span class="founder-stat-label">Always &amp; Forever</span>
+        </div>
+        <div class="founder-stat">
+          <span class="founder-stat-num">2026</span>
+          <span class="founder-stat-label">Year Founded</span>
+        </div>
+      </div>
+      <div class="founder-links">
+        <a href="https://www.instagram.com/cdrnine.png" target="_blank" rel="noopener" class="founder-link ig" itemprop="sameAs">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+          @cdrnine.png
+        </a>
+        <a href="https://x.com/vigilai_x" target="_blank" rel="noopener" class="founder-link x" itemprop="sameAs">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          @vigilai_x
+        </a>
+        <a href="mailto:vigilai.online@gmail.com" class="founder-link">✉ Email</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="team" aria-label="VigilAI Team">
+  <p class="section-tag" style="text-align:center;">// the builder</p>
+  <h2 class="section-title" style="text-align:center;">Team VigilAI</h2>
+  <div class="team-card fade-up">
+    <div class="name">Abhishek Kumar</div>
+    <div class="role">Founder · Project Lead · Developer</div>
+    <div class="team-social-links">
+      <a href="https://www.instagram.com/cdrnine.png" target="_blank" rel="noopener" class="team-link ig">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+        @cdrnine.png
+      </a>
+      <a href="https://x.com/vigilai_x" target="_blank" rel="noopener" class="team-link x">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        @vigilai_x
+      </a>
+    </div>
+  </div>
+  <div class="team-meta fade-up">
+    Built with <strong>Python</strong> · <strong>Streamlit</strong> · <strong>LibROSA</strong> · <strong>MediaPipe</strong> · <strong>OpenCV</strong><br>
+    Domain: <strong>vigilai.online</strong> · Founded: <strong>2026</strong> by <strong>Abhishek Kumar</strong>
+  </div>
+</section>
+
+<!-- FAQ — renders as expandable in Google Search results -->
+<section id="faq" aria-label="VigilAI FAQ — Frequently Asked Questions">
+  <div class="faq-inner">
+    <p class="section-tag" style="text-align:center;">// faq</p>
+    <h2 class="section-title" style="text-align:center;">Frequently Asked<br>Questions</h2>
+    <p class="section-desc" style="margin:0 auto;text-align:center;">Everything about VigilAI and its founder, answered.</p>
+    <div class="faq-list fade-up">
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false"><h3>Who is the founder of VigilAI?</h3><span class="faq-icon">+</span></button>
+        <div class="faq-a"><p><strong>Abhishek Kumar</strong> is the founder and creator of VigilAI. He is an Indian developer who built VigilAI to protect people from AI-generated fraud. Follow him on Instagram <a href="https://www.instagram.com/cdrnine.png" target="_blank" rel="noopener">@cdrnine.png</a> or X <a href="https://x.com/vigilai_x" target="_blank" rel="noopener">@vigilai_x</a>. Email: vigilai.online@gmail.com</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false"><h3>What is VigilAI?</h3><span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>VigilAI is a free, real-time deepfake and AI voice detection tool at vigilai.online. It uses three analysis layers — MFCC spectral fingerprinting, MediaPipe facial landmark tracking, and Fourier pixel analysis — to detect whether audio or video is AI-generated. No install or account required.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false"><h3>Is VigilAI free?</h3><span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>Yes — VigilAI is completely free. No subscription, no login, no installation. Visit vigilai.online and launch the detection app.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false"><h3>How does VigilAI detect deepfake fraud?</h3><span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>VigilAI runs three simultaneous checks: MFCC Voice Fingerprinting (AI voices have unnaturally uniform spectral patterns), Biological Blink Detection (deepfake faces rarely blink naturally), and Fourier Pixel & Jitter Analysis (AI video has missing high-frequency pixel data and facial "shimmy"). One suspicious signal triggers a warning.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false"><h3>Can VigilAI detect AI-cloned voices?</h3><span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>Yes. VigilAI's MFCC spectral analysis detects the acoustic signatures of AI voice synthesis and voice cloning. Test a live mic recording or upload a WAV or MP3 file.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false"><h3>Who built VigilAI and why?</h3><span class="faq-icon">+</span></button>
+        <div class="faq-a"><p><strong>Abhishek Kumar</strong> built VigilAI after seeing the rapid rise of AI-generated scam calls and deepfake video fraud. He wanted to make real, enterprise-grade deepfake detection accessible to everyone — completely free of charge.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" aria-label="Contact VigilAI">
+  <p class="section-tag" style="text-align:center;">// get in touch</p>
+  <h2 class="section-title" style="text-align:center;">Contact Us</h2>
+  <p class="section-desc" style="margin:0 auto;text-align:center;">Questions, partnerships, or want to report a deepfake? Reach out directly.</p>
+  <div class="contact-grid">
+    <a href="mailto:vigilai.online@gmail.com" class="contact-card fade-up">
+      <div class="contact-icon" style="background:rgba(234,67,53,0.1);">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 8L12 13L4 8V6L12 11L20 6V8Z" fill="#EA4335"/></svg>
+      </div>
+      <span class="contact-label">Email</span>
+      <span class="contact-value">Abhishek Kumar</span>
+      <span class="contact-sub">vigilai.online@gmail.com</span>
+    </a>
+    <a href="https://x.com/vigilai_x" target="_blank" rel="noopener" class="contact-card fade-up">
+      <div class="contact-icon" style="background:rgba(255,255,255,0.05);">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="#ffffff"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      </div>
+      <span class="contact-label">Follow on X</span>
+      <span class="contact-value">VigilAI</span>
+      <span class="contact-sub">@vigilai_x</span>
+    </a>
+    <a href="https://www.instagram.com/cdrnine.png" target="_blank" rel="noopener" class="contact-card fade-up">
+      <div class="contact-icon" style="background:rgba(193,53,132,0.1);">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="#C13584"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+      </div>
+      <span class="contact-label">Instagram</span>
+      <span class="contact-value">Abhishek Kumar</span>
+      <span class="contact-sub">@cdrnine.png</span>
+    </a>
+  </div>
+</section>
+
+<footer>
+  <a href="https://vigilai.online" class="footer-logo" title="VigilAI — Deepfake Detector by Abhishek Kumar">
+    <img src="logo.png" alt="VigilAI" width="30" height="30">
+    VigilAI
+  </a>
+  <div class="footer-links">
+    <a href="#how">How It Works</a>
+    <a href="#features">Features</a>
+    <a href="#about">About</a>
+    <a href="#faq">FAQ</a>
+    <a href="#team">Team</a>
+    <a href="#contact">Contact</a>
+    <a href="https://www.instagram.com/_vigil.ai" target="_blank" rel="noopener">Instagram</a>
+    <a href="https://x.com/vigilai_x" target="_blank" rel="noopener">X / Twitter</a>
+  </div>
+  <div class="footer-copy">
+    © 2026 VigilAI · vigilai.online<br>
+    Founded &amp; built by <strong style="color:var(--accent)">Abhishek Kumar</strong>
+  </div>
+</footer>
+
+<script>
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach((e, i) => {
+      if (e.isIntersecting) setTimeout(() => e.target.classList.add('visible'), i * 80);
+    });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.fade-up').forEach(el => obs.observe(el));
+
+  document.querySelectorAll('.faq-q').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const item = btn.closest('.faq-item');
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(i => {
+        i.classList.remove('open');
+        i.querySelector('.faq-q').setAttribute('aria-expanded', 'false');
+      });
+      if (!isOpen) {
+        item.classList.add('open');
+        btn.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+</script>
+</body>
+</html>
